@@ -193,7 +193,7 @@
 		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="043be73c-0324-4d9c-845e-ee4298f3150c" configVersion="a196aeb8935f0246a62039a55efa038700000000"/>
 		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="043be73c-0324-4d9c-845e-ee4298f3150c.0" configVersion="cca68d91b65bd343b5a87f8619dfff7400000000"/>
 		<Metadata name="Document.Поступление.ObjectModule" id="dae5fae7-9a6e-4162-bdbc-feb6bf2b06fe.0" configVersion="9e0d44333d62504aad3d72662d58072800000000"/>
-		<Metadata name="Document.Реализация" id="a6cf772d-18d5-4662-ae5c-78f4699cd68f" configVersion="2f5942cf08ada846a3a6a214f8233f0d00000000">
+		<Metadata name="Document.Реализация" id="a6cf772d-18d5-4662-ae5c-78f4699cd68f" configVersion="f997dc1ad681be409f8c0436f401e58400000000">
 			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.Цена" id="2802e205-5933-463d-8c7b-c19d3471a71a"/>
 			<Metadata name="Document.Реализация.Attribute.Склад" id="2eacb65f-1cd3-4c10-8994-a66fc55a4746"/>
 			<Metadata name="Document.Реализация.TabularSection.Товары" id="48728207-68ef-4f03-84ce-609f5c27c088"/>
@@ -212,7 +212,7 @@
 		<Metadata name="Document.Реализация.Form.ФормаСписка.Form" id="4c02abd0-0199-4c9c-a184-035d8a532d31.0" configVersion="9d74ee1e66633647b173d4be691e29f800000000"/>
 		<Metadata name="Document.Реализация.Form.ФормаСпискаПострочно" id="4ab15155-2970-4ad1-86cf-076c1f5fc75f" configVersion="4068be70526514469b6787946b34cf4500000000"/>
 		<Metadata name="Document.Реализация.Form.ФормаСпискаПострочно.Form" id="4ab15155-2970-4ad1-86cf-076c1f5fc75f.0" configVersion="62667c817c02c146934e38d94cbd69b700000000"/>
-		<Metadata name="Document.Реализация.ObjectModule" id="a6cf772d-18d5-4662-ae5c-78f4699cd68f.0" configVersion="897e42d77f99d141a70e9cbee0b08af900000000"/>
+		<Metadata name="Document.Реализация.ObjectModule" id="a6cf772d-18d5-4662-ae5c-78f4699cd68f.0" configVersion="e706c182215cbf41a2a4057a44f832b400000000"/>
 		<Metadata name="Document.Списание" id="08679e37-4acf-4f63-9435-e6309e7c13fa" configVersion="eed617f4100e0e458c1ea95d827582ee00000000">
 			<Metadata name="Document.Списание.TabularSection.Товары.Attribute.Товар" id="3913bc23-61d9-41dd-8b1f-40676fdf778d"/>
 			<Metadata name="Document.Списание.Attribute.Склад" id="5d7d90e3-6e11-4cdd-b186-d683badefcb9"/>
