@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<Enabled>false</Enabled>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Фамилия" id="7">
+			<DataPath>Объект.Фамилия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФамилияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Имя" id="10">
+			<DataPath>Объект.Имя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИмяКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Отчество" id="13">
+			<DataPath>Объект.Отчество</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтчествоКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="КодПоДРФО" id="16">
+			<DataPath>Объект.КодПоДРФО</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодПоДРФОКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="КодПоДРФОРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<Table name="КонтактнаяИнформация" id="19">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.КонтактнаяИнформация</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КонтактнаяИнформацияКонтекстноеМеню" id="20"/>
+			<AutoCommandBar name="КонтактнаяИнформацияКоманднаяПанель" id="21"/>
+			<ExtendedTooltip name="КонтактнаяИнформацияРасширеннаяПодсказка" id="22"/>
+			<SearchStringAddition name="КонтактнаяИнформацияСтрокаПоиска" id="23">
+				<AdditionSource>
+					<Item>КонтактнаяИнформация</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактнаяИнформацияСтрокаПоискаКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="КонтактнаяИнформацияСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КонтактнаяИнформацияСостояниеПросмотра" id="26">
+				<AdditionSource>
+					<Item>КонтактнаяИнформация</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактнаяИнформацияСостояниеПросмотраКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="КонтактнаяИнформацияСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КонтактнаяИнформацияУправлениеПоиском" id="29">
+				<AdditionSource>
+					<Item>КонтактнаяИнформация</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КонтактнаяИнформацияУправлениеПоискомКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="КонтактнаяИнформацияУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="КонтактнаяИнформацияНомерСтроки" id="32">
+					<DataPath>Объект.КонтактнаяИнформация.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактнаяИнформацияНомерСтрокиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="КонтактнаяИнформацияНомерСтрокиРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<InputField name="КонтактнаяИнформацияТипКонтактнойИнформации" id="35">
+					<DataPath>Объект.КонтактнаяИнформация.Тип</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактнаяИнформацияТипКонтактнойИнформацииКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="КонтактнаяИнформацияТипКонтактнойИнформацииРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="КонтактнаяИнформацияВидКонтактнойИнформации" id="38">
+					<DataPath>Объект.КонтактнаяИнформация.Вид</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактнаяИнформацияВидКонтактнойИнформацииКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КонтактнаяИнформацияВидКонтактнойИнформацииРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="КонтактнаяИнформацияДанные" id="41">
+					<DataPath>Объект.КонтактнаяИнформация.Данные</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтактнаяИнформацияДанныеКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="КонтактнаяИнформацияДанныеРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

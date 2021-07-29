@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="c3a05891-43b0-4ebd-9e2f-c8b4c6c8d0af">
+		<Name>ПродуктыПитания</Name>
+		<Code>000000004</Code>
+		<Description>Продукты питания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9a3e63e9-7b8e-4943-b941-a7c61d19d526">
+		<Name>Прочее</Name>
+		<Code>000000003</Code>
+		<Description>Прочее</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b57373b6-4f41-421a-ae8d-9f71a29e3887">
+		<Name>Сантехника</Name>
+		<Code>000000002</Code>
+		<Description>Сантехника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="535d0984-8d7b-45e1-be6c-7a6420bbbf6b">
+		<Name>Стройматериалы</Name>
+		<Code>000000001</Code>
+		<Description>Стройматериалы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
